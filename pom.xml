@@ -3,8 +3,8 @@
 	<groupId>fr.maif.formation</groupId>
 	<artifactId>monpdf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Mon PDF</name>
-	<description>exercice 3.8 avec Maven</description>
+	<name>formatin</name>
+	<description>2019 11 12 foramtion Java JS</description>
 	
 	<properties>
 		<maven.compiler.source>13</maven.compiler.source>

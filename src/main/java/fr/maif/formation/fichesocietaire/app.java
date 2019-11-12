@@ -13,17 +13,17 @@ public class app {
 		System.out.println("surname? ");
 		String prenom = scanner.nextLine();
 		
-		Societaire soc = new Societaire("088419m", prenom, name);
-		//societaire.setName(name);
-		//societaire.setPrenom(prenom);
-		soc.setBirthDate(LocalDate.of(1983, 07, 18));
+		Societaire soc = new PersonnePhysique("123456m", prenom, name);
 		
-		//System.out.println(societaire.getPrenom() + " " +
-		//					soc.getName() + " " +
-		//					soc.getAge() +
-		//					" ans.");
+		/*societaire.setName(name);
+		societaire.setPrenom(prenom);
+		pp.setBirthDate(LocalDate.of(1983, 07, 18));
+		System.out.println(societaire.getPrenom() + " " +
+							soc.getName() + " " +
+							soc.getAge() +
+						" ans.");*/
 		
-		FicheSocietaire fiche = soc.genererFiche();
+		WriteFiche fiche = soc.genererFiche();
 		fiche.save();
 		//scanner.close();
 	}
