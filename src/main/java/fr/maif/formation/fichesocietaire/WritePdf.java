@@ -6,7 +6,7 @@ import com.itextpdf.text.Document;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfWriter;
 
-public class DeuxiemePdf {
+public class WritePdf {
 	
 	public static void main(String[] args) throws Exception {
 		var document = new Document();
