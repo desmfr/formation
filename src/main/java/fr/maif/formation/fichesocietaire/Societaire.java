@@ -1,4 +1,4 @@
-package monpdf;
+package fr.maif.formation.fichesocietaire;
 
 import java.time.LocalDate;
 import java.time.Period;
