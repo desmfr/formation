@@ -15,16 +15,13 @@ public class app {
 		
 		Societaire soc = new PersonnePhysique("123456m", prenom, name);
 		
+		WriteFiche fiche = soc.genererFiche();
+		fiche.save();
+		
 		/*societaire.setName(name);
 		societaire.setPrenom(prenom);
 		pp.setBirthDate(LocalDate.of(1983, 07, 18));
-		System.out.println(societaire.getPrenom() + " " +
-							soc.getName() + " " +
-							soc.getAge() +
-						" ans.");*/
-		
-		WriteFiche fiche = soc.genererFiche();
-		fiche.save();
-		//scanner.close();
+		System.out.println(societaire.getPrenom() + " " + soc.getName() + " " + soc.getAge() + " ans.");
+		scanner.close();*/	
 	}
 }

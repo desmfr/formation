@@ -1,6 +1,6 @@
 package fr.maif.formation.fichesocietaire;
 
-public class Societaire {
+public abstract class Societaire {
 
 	private String id;
 	
@@ -16,9 +16,7 @@ public class Societaire {
 		this.id = id;
 	}
 	
-	public String getDenomination() {
-		return "";
-	}
+	public abstract String getDenomination();
 	
 	public WriteFiche genererFiche() {
 		return new WriteFiche(this);
